@@ -26,3 +26,10 @@ body {
     }
   }
 }
+
+.container {
+  @media (max-width: 768px) {
+    /* Always nice to have some padding on the left and right in touch devices */
+    padding: 0 1rem;
+  }
+}
